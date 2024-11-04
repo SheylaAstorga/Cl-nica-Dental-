@@ -1,4 +1,4 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1>titulo prueba</h1>
+      <h1 className='display-3'>titulo prueba</h1>
     </>
   )
 }
