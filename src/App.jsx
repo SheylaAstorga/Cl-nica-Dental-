@@ -1,13 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import PaginaPrincipal from './components/pages/paginaPrincipal';
 
 function App() {
  
 
   return (
-    <>
-      <h1 className='display-3'>titulo prueba</h1>
-    </>
+    <section className='pagPrinc'>
+      <PaginaPrincipal></PaginaPrincipal>
+    </section>
   )
 }
 
