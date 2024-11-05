@@ -3,7 +3,7 @@ import Bienvenida from "../../img/sonrisa.png";
 
 const PaginaPrincipal = () => {
   return (
-    <section className="my-5  mx-3">
+    <section className="mx-3">
       <Row className="d-flex flex-column flex-lg-row align-items-center">
         <Col xs={12} md={6} className="px-md-3 px-lg-5">
           <h5 className="">Sea Bienvenido</h5>
