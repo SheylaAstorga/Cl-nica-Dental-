@@ -3,6 +3,7 @@ import './App.css'
 import PaginaPrincipal from './components/pages/paginaPrincipal';
 import NavPrincipal from './components/common/NavPrincipal';
 import Servicios from './components/pages/Servicios';
+import Sobrenosotros from './components/pages/Sobrenosotros';
 
 function App() {
  
@@ -12,6 +13,7 @@ function App() {
       <NavPrincipal></NavPrincipal>
       <PaginaPrincipal></PaginaPrincipal>
       <Servicios></Servicios>
+      <Sobrenosotros></Sobrenosotros>
     </section>
   )
 }

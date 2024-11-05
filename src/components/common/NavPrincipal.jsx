@@ -12,7 +12,7 @@ const NavPrincipal = () => {
             <Nav className="ms-auto fs-5">
               <Nav.Link href="#home">Inicio</Nav.Link>
               <Nav.Link href="#link">Servicios</Nav.Link>
-              <Nav.Link href="#link">Sobre mí</Nav.Link>
+              <Nav.Link href="#link">Sobre nosotros</Nav.Link>
               <Nav.Link href="#link">Contacto</Nav.Link>
               
             </Nav>
