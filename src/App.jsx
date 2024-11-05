@@ -4,6 +4,7 @@ import PaginaPrincipal from './components/pages/paginaPrincipal';
 import NavPrincipal from './components/common/NavPrincipal';
 import Servicios from './components/pages/Servicios';
 import Sobrenosotros from './components/pages/Sobrenosotros';
+import Ubicacion from './components/pages/Ubicacion';
 
 function App() {
  
@@ -14,6 +15,7 @@ function App() {
       <PaginaPrincipal></PaginaPrincipal>
       <Servicios></Servicios>
       <Sobrenosotros></Sobrenosotros>
+      <Ubicacion></Ubicacion>
     </section>
   )
 }
