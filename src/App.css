@@ -13,7 +13,7 @@ h5{
     font-family: "Poppins", sans-serif;
   font-weight: 300;
  font-style: normal;
- color:#08a4d8;
+ color:#015c7a;
 }
 h1{
     color: #0979b0;
@@ -58,6 +58,5 @@ Button {
   }
   
 .seccionServicios{
-  border-radius: 5%;
   background-color: #61c4f6;
 }

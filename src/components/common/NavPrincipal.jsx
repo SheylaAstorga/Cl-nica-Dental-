@@ -1,20 +1,28 @@
-import { Container, Navbar,Nav } from "react-bootstrap";
+import { Container, Navbar, Nav, NavbarBrand } from "react-bootstrap";
 import logoPrincipal from "../../img/logo.png";
+import { Link, NavLink } from "react-router-dom";
 
 const NavPrincipal = () => {
   return (
     <div>
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar expand="lg" bg="dark" data-bs-theme="dark">
         <Container>
-          <Nav.Link href="#home"><img src={logoPrincipal} alt="logo salud y sonrisa"  className="logoPrincipal"/></Nav.Link>
+          <Navbar.Brand as={Link} to="/">
+            <img
+              src={logoPrincipal}
+              alt="logo salud y sonrisa"
+              className="logoPrincipal"
+            />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto fs-5">
-              <Nav.Link href="#home">Inicio</Nav.Link>
-              <Nav.Link href="#link">Servicios</Nav.Link>
-              <Nav.Link href="#link">Sobre nosotros</Nav.Link>
-              <Nav.Link href="#link">Contacto</Nav.Link>
-              
+            <Nav className="ms-auto  fs-5">
+              <NavLink className="nav-link" To="/">
+                Inicio
+              </NavLink>
+              <Nav.Link href="#servicios">Servicios</Nav.Link>
+              <Nav.Link href="#nosotros">Sobre nosotros</Nav.Link>
+              <Nav.Link href="#contacto">Contacto</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

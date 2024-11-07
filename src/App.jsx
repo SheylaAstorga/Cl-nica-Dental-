@@ -7,20 +7,21 @@ import Sobrenosotros from './components/pages/Sobrenosotros';
 import Ubicacion from './components/pages/Ubicacion';
 import Contacto from './components/pages/Contacto';
 import FooterPrinci from './components/common/FooterPrinci';
+import Error404 from './components/pages/Error404';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 function App() {
  
 
   return (
-    <section className='pagPrinc'>
-      <NavPrincipal></NavPrincipal>
-      <PaginaPrincipal></PaginaPrincipal>
-      <Servicios></Servicios>
-      <Sobrenosotros></Sobrenosotros>
-      <Ubicacion></Ubicacion>
-      <Contacto></Contacto>
-      <FooterPrinci></FooterPrinci>
-    </section>
+   <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+   <NavPrincipal></NavPrincipal>
+   <Routes>
+    <Route path='/' element={<PaginaPrincipal></PaginaPrincipal>}></Route>
+    <Route path='*' element={<Error404></Error404>}></Route>
+   </Routes>
+   <FooterPrinci></FooterPrinci>
+   </BrowserRouter>
   )
 }
 

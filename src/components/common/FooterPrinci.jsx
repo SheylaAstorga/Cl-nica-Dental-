@@ -8,7 +8,7 @@ import logoPrincipal from "../../img/logo.png";
 
 function FooterPrinci() {
   return (
-    <footer className="bg-dark text-light py-5">
+    <footer className="bg-dark text-light py-5  text-center">
       <Container>
         <Row>
           <Col md={4} className="mb-4">
@@ -21,22 +21,22 @@ function FooterPrinci() {
             <h5>Enlaces Rápidos</h5>
             <ul className="list-unstyled fs-5">
               <li><a href="#home" className=" text-decoration-none link-light">Inicio</a></li>
-              <li><a href="#services" className=" text-decoration-none link-light">Servicios</a></li>
-              <li><a href="#about" className=" text-decoration-none link-light">Sobre Nosotros</a></li>
-              <li><a href="#contact" className=" text-decoration-none link-light">Contacto</a></li>
+              <li><a href="#servicios" className=" text-decoration-none link-light">Servicios</a></li>
+              <li><a href="#nosotros" className=" text-decoration-none link-light">Sobre Nosotros</a></li>
+              <li><a href="#contacto" className=" text-decoration-none link-light">Contacto</a></li>
             </ul>
           </Col>
           <Col md={4} className="mb-4">
             <h5>Contáctanos</h5>
-            <p className="">123 Calle Principal, Ciudad</p>
-            <p className="">Teléfono: +54 123 456 789</p>
-            <p className="">Email: contacto@clinicadental.com</p>
-            <div className="d-flex gap-3 mt-3">
+            <p >123 Calle Principal, Ciudad</p>
+            <p >Teléfono: +54 123 456 789</p>
+            <p >Email: contacto@clidental.com</p>
+            <div className="d-flex gap-3 mt-3 justify-content-center">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-light">
-              <FontAwesomeIcon icon={faFacebook} style={{color: "#ffffff",}} />
+              <FontAwesomeIcon icon={faFacebook} style={{color: "#ffffff",}} className="fa-2x"/>
               </a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-light">
-              <FontAwesomeIcon icon={faInstagram} style={{color: "#ffffff",}} />
+              <FontAwesomeIcon icon={faInstagram} style={{color: "#ffffff",}} className="fa-2x"/>
               </a>
             </div>
           </Col>

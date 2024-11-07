@@ -5,7 +5,7 @@ const Sobrenosotros = () => {
   return (
     <Container className="my-5 py-5  rounded shadow">
       <Row className="align-items-center">
-        <Col md={12} lg={6} className="text-center mb-md-5 mb-lg-0 ">
+        <Col md={12} lg={6} className="text-center mb-md-5 mb-lg-0 mb-5 ">
           <img
             src={sobremi}
             alt="Sobre nosotros"
@@ -18,7 +18,7 @@ const Sobrenosotros = () => {
           <Card className="border-0">
             <Card.Body>
               <h5 className="text-primary text-center">Sobre Nosotros</h5>
-              <h2 className="mb-4 text-center">Conoce a nuestro equipo y nuestra misión</h2>
+              <h2 className="mb-5 text-center">Conoce a nuestro equipo y nuestra misión</h2>
               <p>
                 En <strong>Clínica Dental Salud & Sonrisa</strong>, estamos
                 comprometidos con ofrecer un servicio dental de alta calidad en

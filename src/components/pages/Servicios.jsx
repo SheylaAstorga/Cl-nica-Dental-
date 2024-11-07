@@ -8,7 +8,7 @@ import extraccion from "../../img/extraccion.jpg";
 
 const Servicios = () => {
   return (
-    <section className="seccionServicios p-5">
+    <section className="seccionServicios p-5" id="servicios">
       <h5 className="text-center fs-3 mt-4">Servicios</h5>
       <h2 className="text-center text-light mb-5">Conoce nuestros servicios</h2>
       <section>
@@ -43,7 +43,8 @@ const Servicios = () => {
               <Card.Body>
                 <Card.Title>Extracción de Dientes</Card.Title>
                 <Card.Text>
-                Extracción segura y sin dolor de dientes dañados o problemáticos.
+                  Extracción segura y sin dolor de dientes dañados o
+                  problemáticos.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -66,7 +67,8 @@ const Servicios = () => {
               <Card.Body>
                 <Card.Title>Implantes Dentales</Card.Title>
                 <Card.Text>
-                Reemplazo de dientes perdidos con implantes que funcionan y se ven como dientes naturales.
+                  Reemplazo de dientes perdidos con implantes que funcionan y se
+                  ven como dientes naturales.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -77,12 +79,11 @@ const Servicios = () => {
               <Card.Body>
                 <Card.Title>Odontología Preventiva para Niños</Card.Title>
                 <Card.Text>
-                Servicios especializados en el cuidado dental para niños.
+                  Servicios especializados en el cuidado dental para niños.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
-         
         </Row>
       </section>
     </section>
